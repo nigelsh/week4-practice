@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsla(0,0%,0%, 1);
+}
+
+nav a.selected{
+  color: hsla(0,0%,0%, 1);
+}
+
+header {
+    text-align: center;
+    padding: 2.5% 0 1% 0;
+    font-size: 1.5em;
+}
+
+header a {
+    color: hsla(250, 96%, 61%, .7);;
+}
+
+nav {
+	background: hsla(250, 96%, 61%, .7);
+    font-size: 1.25em;
+} 
+
+nav li{    
+    display: inline-block;
+    list-style: none;
+    padding: .5% 5.1%;
+    border-left: 3px solid hsla(250, 96%, 61%, .7);
+}
+
+nav li:first-child {
+    border: none;
+}
+
+section {
+    width: 23%;
+    height: 70%;
+    background-color: hsla(250, 96%, 61%, .4);
+    display: inline-block;
+    float: left;    
+}
+
+section li {
+    list-style: none;
+    text-align: center;
+    padding: 2.5% 0 5% 0;
+}
+
+section li:first-child {
+    padding: 30% 0 5% 0;
+}
+
+main {
+    width: 77%;
+    height: 70%;
+    background-color: hsla(200, 96%, 61%, .3);
+    display: inline-block;
+    float: right; 
+}
+
+main img {
+    width: 30%;
+    padding: 7% 0 3% 0;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic1 {
+    width: 10%;
+    display: inline-block;
+    margin: .5% 10%;
+    padding: 0;
+}
+
+main p {
+    width: 60%;
+    display: block;
+    margin: 1% auto;
+    text-align: center;
+}
+
+.empty p{
+    margin:25% auto;
+}
+
+.music {
+    display: block;
+    margin: 20% auto 5%;
+}
+
+#catpics {
+    margin: 2% 0;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 50px
+}
+
+footer img {
+    width: 40px;  
+   margin: 0 15px;  
+}
