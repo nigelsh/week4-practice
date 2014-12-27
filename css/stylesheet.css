@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 	box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+ul {
+    text-align: center;
 }
 
 body {
@@ -49,7 +54,7 @@ nav li:first-child {
 
 section {
     width: 23%;
-    height: 70%;
+    height: 650px;
     background-color: hsla(250, 96%, 61%, .4);
     display: inline-block;
     float: left;    
@@ -67,7 +72,7 @@ section li:first-child {
 
 main {
     width: 77%;
-    height: 70%;
+    height: 650px;
     background-color: hsla(200, 96%, 61%, .3);
     display: inline-block;
     float: right; 
@@ -89,7 +94,7 @@ main img {
 }
 
 main p {
-    width: 60%;
+    width: 80%;
     display: block;
     margin: 1% auto;
     text-align: center;
